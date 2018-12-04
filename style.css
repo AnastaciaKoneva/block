@@ -1,91 +1,93 @@
-*{
-	padding: 0;
-	margin: 0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-img{border:0;
+img {
+    border: 0;
 }
 
-body{
-	background-color: #fff;
-	font: 14px PT Sans;
-	color: #555;
-	line-height: 22px;
+body {
+    background-color: #fff;
+    font: 14px PT Sans;
+    color: #555;
+    line-height: 22px;
 }
 
-.carcas{
-	margin: 0 auto;
+.carcas {
+    margin: 0 auto;
 }
 
-header{
-	background-color: #dbdbdb;
-	padding-top: 65px;
-	
+header {
+    background-color: #dbdbdb;
+    padding-top: 65px;
+
 }
 
-.header1{
-	width: 1000px;
-	margin: 0px auto;
-	overflow: hidden;
-}
-
-
-.logo{
-	display: block;
-	float: left;
-	margin-bottom: 65px;
-}
-
-.number{
-	display: block;
-	float: right;
-	font-family: Open Sans;
-	font-size: 40px;
-	color: #767676;
-	line-height: 1.3;
-}
-
-.menu{
-	background-color:#777;
-}
-
-nav ul{ 
-	width:1000px;
-	margin: 0px auto;
-	overflow: hidden;
-	list-style: none;
-}
-
-nav ul li{
-	float: left;
-	padding: 8px 60px;
-	border-left: 1px solid #fff;
-}
-
-nav ul li:first-child{
-	border-left: none;
-}
-
-nav ul a{
-	font-family: PT Sans;
-	color: #fff;
-	font-size: 14px;
-	text-decoration:none;
-	font-weight: bold;
-}
-
-nav ul a:hover{
-	color: #fff;
-	text-decoration: underline;
-}
-.center{
-	display:block;
-	margin: 0px auto;
+.header1 {
+    width: 1000px;
+    margin: 0px auto;
+    overflow: hidden;
 }
 
 
-.block-for-slider{
-	width: 1100px;
+.logo {
+    display: block;
+    float: left;
+    margin-bottom: 65px;
+}
+
+.number {
+    display: block;
+    float: right;
+    font-family: Open Sans;
+    font-size: 40px;
+    color: #767676;
+    line-height: 1.3;
+}
+
+.menu {
+    background-color: #777;
+}
+
+nav ul {
+    width: 1000px;
+    margin: 0px auto;
+    overflow: hidden;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    padding: 8px 60px;
+    border-left: 1px solid #fff;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul a {
+    font-family: PT Sans;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.center {
+    display: block;
+    margin: 0px auto;
+}
+
+
+.block-for-slider {
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -103,14 +105,14 @@ nav ul a:hover{
 }
 
 #slidewrapper {
-     position: relative;
+    position: relative;
     width: calc(100% * 6);
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-    -webkit-transition-timing-function: cubic-bezier(.67,.01,.23,1);
-    -o-transition-timing-function: cubic-bezier(.67,.01,.23,1);
-    transition-timing-function: cubic-bezier(.67,.01,.23,1);
+    -webkit-transition-timing-function: cubic-bezier(.67, .01, .23, 1);
+    -o-transition-timing-function: cubic-bezier(.67, .01, .23, 1);
+    transition-timing-function: cubic-bezier(.67, .01, .23, 1);
 }
 
 
@@ -120,7 +122,7 @@ nav ul a:hover{
 }
 
 .slide {
-    width: calc(100%/6);
+    width: calc(100% / 6);
     list-style: none;
     display: inline;
     float: left;
@@ -143,6 +145,7 @@ nav ul a:hover{
 #prev-btn:hover, #next-btn:hover {
     cursor: pointer;
 }
+
 #prev-btn {
     left: 590px;
 }
@@ -176,107 +179,110 @@ nav ul a:hover{
 }
 
 
-
-
-
-
-.main-content{
-	overflow:hidden;
-	width: 1000px;
-	margin: 30px auto 0px;
+.main-content {
+    overflow: hidden;
+    width: 1000px;
+    margin: 30px auto 0px;
 }
 
-article{
-	width:510px;
-	padding:22px 2px 32000px 1px;
-	float:right;
-	background:#fff;
-	margin-bottom:-32000px;
+article {
+    width: 510px;
+    padding: 22px 2px 32000px 1px;
+    float: right;
+    background: #fff;
+    margin-bottom: -32000px;
 
 }
 
-article h1{
-	font-size: 40px;
-	margin-bottom: 35px;
-	color: #767676;
-	font-weight: none;
+article h1 {
+    font-size: 40px;
+    margin-bottom: 35px;
+    color: #767676;
+    font-weight: none;
 }
 
-aside{
-	width:350px;
-	padding:22px 63px 32000px 35px;
-	float:left;
-	background:#767676;
-	margin-bottom:-32000px;
-	font-family:PT Sans;
-	font-size:14px;
-	color: #fff;
-}	
-
-aside h1{
-	font-family: PT Sans;
-	font-size: 40px;
-	color: #fff;	
-	margin-bottom: 35px;
+aside {
+    width: 350px;
+    padding: 22px 63px 32000px 35px;
+    float: left;
+    background: #767676;
+    margin-bottom: -32000px;
+    font-family: PT Sans;
+    font-size: 14px;
+    color: #fff;
 }
 
-aside h2{
-	font-family: PT Sans;
-	font-style: italic;
-	font-size:14px;
+aside h1 {
+    font-family: PT Sans;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 35px;
 }
 
-aside a{
-	font-family: PT Sans;
-	color: #fff;
-	text-decoration: underline;
-	float:right;
+aside h2 {
+    font-family: PT Sans;
+    font-style: italic;
+    font-size: 14px;
 }
 
-aside a:hover{
-	font-family: PT Sans;
-	color: #fff;
-	text-decoration: underline;
-	float:right;
+aside a {
+    font-family: PT Sans;
+    color: #fff;
+    text-decoration: underline;
+    float: right;
 }
 
-footer{
-	background-color: #777;
-	margin-top: 195px;
+aside a:hover {
+    font-family: PT Sans;
+    color: #fff;
+    text-decoration: underline;
+    float: right;
 }
 
-.foot{
-	margin:0 auto;
-	overflow:hidden;
-	width: 1000px;
+footer {
+    background-color: #777;
+    margin-top: 195px;
 }
 
-.years{
-	color:#fff;
-	font-family: PT Sans;
-	white-space: nowrap;
-	
+.foot {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
 }
 
-.leftimg{
-	float:left;
+.years {
+    color: #fff;
+    font-family: PT Sans;
+    white-space: nowrap;
+
 }
 
-#foot1{
-	    float:left; 
-        margin: 0px 55px 25px 0px; 
-        padding: 10px;
+.leftimg {
+    float: left;
 }
 
-.men{
-	font-family: PT Sans;
-	list-style:none;
-	text-decoration: underline;
-	color: #fff;
+#foot1 {
+    float: left;
+    margin: 0px 55px 25px 0px;
+    padding: 10px;
 }
 
-#foot2{
-	    float:right; 
-        margin: 0px 55px 25px 2px; 
-        padding: 10px;
+
+#foot3 {
+    float: left;
+    margin: 0px 55px 25px 0px;
+    padding: 10px;
+}
+
+.men {
+    font-family: PT Sans;
+    list-style: none;
+    text-decoration: underline;
+    color: #fff;
+}
+
+#foot2 {
+    float: right;
+    margin: 0px 55px 25px 2px;
+    padding: 10px;
 }
